@@ -1,16 +1,38 @@
-# React + Vite
+Scroll Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive web page built using React.js, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+Responsive web design
+Modern and clean UI
+Reusable React components
+Section-based layout
+Tailwind CSS styling
+Fast development using Vite
+🛠️ Technologies Used
+React.js
+Vite
+Tailwind CSS
+JavaScript
+HTML5
+CSS3
+📂 Project Structure
+scroll-web/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Section1/
+│   │   │   ├── PageContent.jsx
+│   │   │   ├── Ptext.jsx
+│   │   │   ├── RightCard.jsx
+│   │   │   ├── RightCardContent.jsx
+│   │   │   ├── RightContent.jsx
+│   │   │   └── Section1.jsx
+│   │   └── Section2/
+│   │       └── Section2.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
